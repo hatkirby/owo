@@ -1,8 +1,6 @@
 cmake_minimum_required (VERSION 3.1)
 project (owo)
 
-set(CMAKE_BUILD_TYPE Debug)
-
 add_subdirectory(vendor/verbly)
 add_subdirectory(vendor/libtwittercpp)
 add_subdirectory(vendor/yaml-cpp EXCLUDE_FROM_ALL)
